@@ -24,6 +24,8 @@ header, footer {
 #enlaces {
     display: flex;
     flex-direction: column;
+    text-align: left;
+    align-items: center;
 }
 
 aside {
@@ -36,4 +38,44 @@ section {
 
 main {
     display: flex;
+}
+
+p {
+    padding: 5%;
+    padding-top: 0%;
+    text-align: justify;
+}
+
+@media (max-width: 700px){
+       
+    header, main {
+        display: block;
+    }
+
+    aside, section {
+        width: 100%;
+    }
+
+    header > img {
+        width: 40%;
+    }
+
+    iframe, img, p {
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    #indice {
+        font-size: 20px;
+    }
+
 }
