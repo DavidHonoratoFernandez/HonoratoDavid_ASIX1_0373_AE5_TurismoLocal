@@ -26,6 +26,8 @@ header, footer {
     flex-direction: column;
     text-align: left;
     align-items: center;
+    text-decoration: none;
+    color: black;
 }
 
 aside {
@@ -41,10 +43,73 @@ main {
 }
 
 p {
-    padding: 5%;
+    padding: 7%;
     padding-top: 0%;
     text-align: justify;
 }
+
+footer > p {
+    padding: 0%;
+    text-align: center  ;
+}
+
+aside > fieldset > a > p {
+    font-size: 12px;
+    width: 100%;
+}
+
+aside > fieldset > a > h3 {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+section > div > h3 {
+    font-size: 20px;
+}
+
+#linea {
+    height: 0.1%;
+    color: black; 
+    background-color: #333;
+}
+
+#gif {
+    width: 100%;
+    height: 30%;
+    
+}
+
+fieldset {
+    /* border: 1px solid #333; */
+    padding: 2px;
+    box-shadow: 2px 0px 10px black;
+    border-radius: 5%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+#plano {
+    position: relative;
+       
+}
+
+#texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(137, 207, 235, 0.7);
+    border-radius: 15%;
+    width: 75%;
+    
+}
+
 
 @media (max-width: 700px){
        
