@@ -143,4 +143,15 @@ fieldset {
         font-size: 20px;
     }
 
+    #texto {
+        width: 50%;
+    }
+
+    #texto > h1 {
+        font-size: 25px;
+    }
+
+    #texto > h3 {
+        font-size: 15px;
+    }
 }
